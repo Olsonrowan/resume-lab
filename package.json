@@ -1,0 +1,13 @@
+{
+  "name": "test-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch styles-folder/styles.scss styles-folder/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,82 @@
+@import "variables";
+@mixin width($width){
+    width: $width;
+}
+%margin {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#page {
+    @extend %margin
+}
+.profilepic{
+    display: flex;
+    border-radius: $imgradius;
+    width: $imgwidth;
+    padding: 45px;
+
+}
+.codes{
+    display: flex;
+    background-image: url(../images-folder/header.jpg);
+    @include width(100%);
+    height: 250px;
+    
+}
+.intro {
+    color: $headcolor;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+.background{
+    width: 100%;
+}
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.name{
+    flex-direction: column;
+    color: $headcolor;
+    display: flex;
+    padding-top: 15px;
+    font-size: 55px;
+}
+.occupation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $headcolor;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.subheader {
+    font-family: $fontsubhead;
+}
+.aboutme {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    background-color: lightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.exp{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 30px;
+    background-color: lightcyan;
+}
+.pagecontent{
+    display: flex;
+}
+div{
+    font-family: $fontsubhead;
+    p{
+        font-family: $fontsubhead;
+    }
+}
